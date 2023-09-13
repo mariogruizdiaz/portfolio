@@ -20,7 +20,8 @@
   overflow: hidden;
 }
 .skill {
-  line-height: 3.5vw;
+  line-height: 2.5vw;
+  font-size: 28px;
 }
 .skill-bars {
   font-size: 28px;
@@ -41,6 +42,11 @@
   margin-left: 80px;
   max-width: 90%;
   height: auto;
+}
+.kill-subtitle {
+    color: $cardSubtitle;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
 /* Media Query */

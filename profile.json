@@ -1,1 +1,87 @@
-{"data":{"user":{"name":"Mario Ruiz Diaz","bio":"Innovative and versatile Software Engineer and Software Architect with a solid track record in designing and implementing robust enterprise solutions. ","avatarUrl":"https://avatars.githubusercontent.com/u/24963928?u=446ada4a9a2493af789a3f82af5b4141cda93564&v=4","location":null,"pinnedItems":{"totalCount":6,"edges":[{"node":{"name":"microservices_poc","description":null,"forkCount":1,"stargazers":{"totalCount":1},"url":"https://github.com/mariogruizdiaz/microservices_poc","id":"R_kgDOHk1m9g","diskUsage":60,"primaryLanguage":{"name":"TypeScript","color":"#3178c6"}}},{"node":{"name":"coding-challenge-newsfeed","description":"On Deck Code challenge","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/mariogruizdiaz/coding-challenge-newsfeed","id":"R_kgDOGF6pSA","diskUsage":107,"primaryLanguage":{"name":"TypeScript","color":"#3178c6"}}},{"node":{"name":"grpc-typescript","description":null,"forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/mariogruizdiaz/grpc-typescript","id":"R_kgDOJ58DhQ","diskUsage":34,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"restApi-metrics-postgres-redis-docker","description":null,"forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/mariogruizdiaz/restApi-metrics-postgres-redis-docker","id":"R_kgDOGLFw-g","diskUsage":37,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"material-dashboard-react_redux-sagas","description":"React version of Material Dashboard by Creative Tim","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/mariogruizdiaz/material-dashboard-react_redux-sagas","id":"R_kgDOI6fnLA","diskUsage":66438,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}},{"node":{"name":"nodejsAndCI","description":null,"forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/mariogruizdiaz/nodejsAndCI","id":"MDEwOlJlcG9zaXRvcnk3ODIyODQyOA==","diskUsage":259,"primaryLanguage":{"name":"JavaScript","color":"#f1e05a"}}}]}}}}
+{
+  "data": {
+    "user": {
+      "name": "Mario Ruiz Diaz",
+      "bio": "Innovative and versatile Software Engineer and Software Architect with a solid track record in designing and implementing robust enterprise solutions. ",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24963928?u=446ada4a9a2493af789a3f82af5b4141cda93564&v=4",
+      "location": null,
+      "pinnedItems": {
+        "totalCount": 6,
+        "edges": [
+          {
+            "node": {
+              "name": "microservices_poc",
+              "description": null,
+              "forkCount": 1,
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/mariogruizdiaz/microservices_poc",
+              "id": "R_kgDOHk1m9g",
+              "diskUsage": 60,
+              "primaryLanguage": {"name": "TypeScript", "color": "#3178c6"}
+            }
+          },
+          {
+            "node": {
+              "name": "coding-challenge-newsfeed",
+              "description": "On Deck Code challenge",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/mariogruizdiaz/coding-challenge-newsfeed",
+              "id": "R_kgDOGF6pSA",
+              "diskUsage": 107,
+              "primaryLanguage": {"name": "TypeScript", "color": "#3178c6"}
+            }
+          },
+          {
+            "node": {
+              "name": "grpc-typescript",
+              "description": null,
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/mariogruizdiaz/grpc-typescript",
+              "id": "R_kgDOJ58DhQ",
+              "diskUsage": 34,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+            }
+          },
+          {
+            "node": {
+              "name": "restApi-metrics-postgres-redis-docker",
+              "description": null,
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/mariogruizdiaz/restApi-metrics-postgres-redis-docker",
+              "id": "R_kgDOGLFw-g",
+              "diskUsage": 37,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+            }
+          },
+          {
+            "node": {
+              "name": "material-dashboard-react_redux-sagas",
+              "description": "React version of Material Dashboard by Creative Tim",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/mariogruizdiaz/material-dashboard-react_redux-sagas",
+              "id": "R_kgDOI6fnLA",
+              "diskUsage": 66438,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+            }
+          },
+          {
+            "node": {
+              "name": "nodejsAndCI",
+              "description": null,
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/mariogruizdiaz/nodejsAndCI",
+              "id": "MDEwOlJlcG9zaXRvcnk3ODIyODQyOA==",
+              "diskUsage": 259,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+            }
+          }
+        ]
+      }
+    }
+  }
+}
