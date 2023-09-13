@@ -436,50 +436,50 @@ const bigProjects = {
                 }
             ]
         },
-        {
-            image: require("./assets/images/arena/logo.png"),
-            projectName: "Advertising Platform. New Social Network app",
-            projectDescriptions: [
-                `I co-founded and innovated an advertising platform that helped brands identify and connect with target audiences, thereby accelerating organic growth. I facilitated the scalability of applications, using microservices in Node.js, ecma6, and TypeScript. Utilized MongoDB and Redis for data storage and GraphQL for the layer service. Additionally, I employed NATS messaging services to streamline the connectivity of 400+ microservices in the platforms and executed the development and deployment of two client apps simultaneously, the first, a web app built with React, Redux, and Sagas, and the second a mobile app built with React Native, Redux, and Sagas. Automation was implemented using Mocha.js and Chai.`
-            ],
-            images: [
-                require("./assets/images/arena/1.png"),
-                require("./assets/images/arena/2.png"),
-                require("./assets/images/arena/3.png"),
-                require("./assets/images/arena/4.png"),
-                require("./assets/images/arena/5.png"),
-                require("./assets/images/arena/6.png"),
-                require("./assets/images/arena/7.png"),
-            ],
-            keywords: [
-                "Logging",
-                "Metrics",
-                "Distributing Tracing",
-                "OpenTelemetry",
-                "DataDog",
-                "APM",
-                "Kibana",
-                "Grafana",
-                "Prometheus",
-                "Observability",
-                "NATS.io",
-                "Publish-Subscribe Pattern",
-                "Request-Reply Pattern",
-                "Microservices",
-                "React",
-                "React Native",
-                "Redux-Sagas",
-                "Node.js",
-                "GraphQL",
-                "TypeScript",
-            ],
-            footerLink: [
-                {
-                    name: "Visit Website",
-                    url: "https://www.adme.com.ar"
-                }
-            ]
-        }
+        // {
+        //     image: require("./assets/images/arena/logo.png"),
+        //     projectName: "Advertising Platform. New Social Network app",
+        //     projectDescriptions: [
+        //         `I co-founded and innovated an advertising platform that helped brands identify and connect with target audiences, thereby accelerating organic growth. I facilitated the scalability of applications, using microservices in Node.js, ecma6, and TypeScript. Utilized MongoDB and Redis for data storage and GraphQL for the layer service. Additionally, I employed NATS messaging services to streamline the connectivity of 400+ microservices in the platforms and executed the development and deployment of two client apps simultaneously, the first, a web app built with React, Redux, and Sagas, and the second a mobile app built with React Native, Redux, and Sagas. Automation was implemented using Mocha.js and Chai.`
+        //     ],
+        //     images: [
+        //         require("./assets/images/arena/1.png"),
+        //         require("./assets/images/arena/2.png"),
+        //         require("./assets/images/arena/3.png"),
+        //         require("./assets/images/arena/4.png"),
+        //         require("./assets/images/arena/5.png"),
+        //         require("./assets/images/arena/6.png"),
+        //         require("./assets/images/arena/7.png"),
+        //     ],
+        //     keywords: [
+        //         "Logging",
+        //         "Metrics",
+        //         "Distributing Tracing",
+        //         "OpenTelemetry",
+        //         "DataDog",
+        //         "APM",
+        //         "Kibana",
+        //         "Grafana",
+        //         "Prometheus",
+        //         "Observability",
+        //         "NATS.io",
+        //         "Publish-Subscribe Pattern",
+        //         "Request-Reply Pattern",
+        //         "Microservices",
+        //         "React",
+        //         "React Native",
+        //         "Redux-Sagas",
+        //         "Node.js",
+        //         "GraphQL",
+        //         "TypeScript",
+        //     ],
+        //     footerLink: [
+        //         {
+        //             name: "Visit Website",
+        //             url: "https://www.adme.com.ar"
+        //         }
+        //     ]
+        // }
     ],
     display: true // Set false to hide this section, defaults to true
 };
