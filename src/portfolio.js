@@ -161,28 +161,29 @@ const techStack = {
     experience: [
         {
             Stack: "Technologies", //Insert stack or technology you have experience in
-            Details: `Node.js, .NET Core, GraphQL, Micro Services, MongoDB, 
-                MS SQL Server, Oracle, Rest API, Redis, Mocha.js, Chai, 
-                Jest.js, Selenium, PubSub & Req-Reply (Kafka, NATS.io, 
-                Redis)`,
+            Details: `React, React Native, .Net Core, Node.js, .NET Core, GraphQL, Xamarin.Forms, MongoDB, 
+                MS SQL Server, Oracle, Rest API, Redis, Mocha.js, Chai, Redis,
+                Jest.js, Selenium, Kafka, NATS.io`,
             progressPercentage: "90%" //Insert relative proficiency in percentage
         },
         {
             Stack: "Programming Languages", //Insert stack or technology you have experience in
-            Details: "Javascript (20 yrs), TypeScript (10 yrs), C# (20 yrs), Golang (2 yrs)",
+            Details: "Javascript (20 years), TypeScript (10 years), C# (20 years), Golang (2 years)",
             progressPercentage: "98%" //Insert relative proficiency in percentage
         },
         {
             Stack: `Cloud Platform`,
             Details: `Lambdas, Step Functions, EC2, ECS, ECR, EKS, Fargate, 
                 Route53, S3, AIM, SNS, AWS-CLI, Code Pipeline, SQS, 
-                Azure, AWS Serverless, Google Cloud Services, Digital Ocean, Linode`,
+                Azure, AWS Serverless, Google Cloud Services, Digital Ocean, Linode, Mongo Atlas, SignalFx, DataDog, New Relic, Kibana, Grafana, Prometheus, OpenTelemetry, 
+                Serveless Framework, Terraform, Docker, Kubernetes,`,
             progressPercentage: "90%"
         },
         {
-            Stack: "Development Tools",
-            Details: "React, React Native, .Net Core, Redux-Sagas, Xamarin.Forms, Object Oriented Programming (OOP)",
-            progressPercentage: "95%"
+            Stack: "Design Patterns & Practices and Paradigms",
+            Details: `Micro-Services, Micro-Frontends, Redux-Sagas, Object Oriented Programming (OOP), Pub-Sub & Req-Reply,
+                Design Patterns (Creational, Structural and Behavioral), Functional programming, MVC, MVVM`,
+            progressPercentage: "98%"
         }
     ],
     displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -434,6 +435,50 @@ const bigProjects = {
                     url: "https://www.adme.com.ar"
                 }
             ]
+        },
+        {
+            image: require("./assets/images/arena/logo.png"),
+            projectName: "Advertising Platform. New Social Network app",
+            projectDescriptions: [
+                `I co-founded and innovated an advertising platform that helped brands identify and connect with target audiences, thereby accelerating organic growth. I facilitated the scalability of applications, using microservices in Node.js, ecma6, and TypeScript. Utilized MongoDB and Redis for data storage and GraphQL for the layer service. Additionally, I employed NATS messaging services to streamline the connectivity of 400+ microservices in the platforms and executed the development and deployment of two client apps simultaneously, the first, a web app built with React, Redux, and Sagas, and the second a mobile app built with React Native, Redux, and Sagas. Automation was implemented using Mocha.js and Chai.`
+            ],
+            images: [
+                require("./assets/images/arena/1.png"),
+                require("./assets/images/arena/2.png"),
+                require("./assets/images/arena/3.png"),
+                require("./assets/images/arena/4.png"),
+                require("./assets/images/arena/5.png"),
+                require("./assets/images/arena/6.png"),
+                require("./assets/images/arena/7.png"),
+            ],
+            keywords: [
+                "Logging",
+                "Metrics",
+                "Distributing Tracing",
+                "OpenTelemetry",
+                "DataDog",
+                "APM",
+                "Kibana",
+                "Grafana",
+                "Prometheus",
+                "Observability",
+                "NATS.io",
+                "Publish-Subscribe Pattern",
+                "Request-Reply Pattern",
+                "Microservices",
+                "React",
+                "React Native",
+                "Redux-Sagas",
+                "Node.js",
+                "GraphQL",
+                "TypeScript",
+            ],
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.adme.com.ar"
+                }
+            ]
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -445,59 +490,59 @@ const bigProjects = {
 const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
     subtitle:
-        "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+        "Achievements and Certifications, Award Letters and Some Cool Stuff that I have done !",
 
     achievementsCards: [
         {
-            title: "Google Code-In Finalist",
+            title: "Certificated Scrum Master",
             subtitle:
-                "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-            image: require("./assets/images/codeInLogo.webp"),
+                "",
+            image: require("./assets/images/certificates/scrum-master.webp"),
             imageAlt: "Google Code-In Logo",
             footerLink: [
-                {
-                    name: "Certification",
-                    url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-                },
-                {
-                    name: "Award Letter",
-                    url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-                },
-                {
-                    name: "Google Code-in Blog",
-                    url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-                }
+                // {
+                //     name: "Certification",
+                //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+                // },
+                // {
+                //     name: "Award Letter",
+                //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+                // },
+                // {
+                //     name: "Google Code-in Blog",
+                //     url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+                // }
             ]
         },
         {
-            title: "Google Assistant Action",
+            title: "Certificated Scrum Developer",
             subtitle:
-                "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: require("./assets/images/googleAssistantLogo.webp"),
+                "",
+                image: require("./assets/images/certificates/scrum-developer.png"),
             imageAlt: "Google Assistant Action Logo",
             footerLink: [
-                {
-                    name: "View Google Assistant Action",
-                    url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-                }
+                // {
+                //     name: "View Google Assistant Action",
+                //     url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+                // }
             ]
         },
 
         {
-            title: "PWA Web App Developer",
-            subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: require("./assets/images/pwaLogo.webp"),
+            title: "Project Management Professional",
+            subtitle: "",
+            image: require("./assets/images/certificates/pmi.png"),
             imageAlt: "PWA Logo",
             footerLink: [
-                { name: "Certification", url: "" },
-                {
-                    name: "Final Project",
-                    url: "https://pakistan-olx-1.firebaseapp.com/"
-                }
+                // { name: "Certification", url: "" },
+                // {
+                //     name: "Final Project",
+                //     url: "https://pakistan-olx-1.firebaseapp.com/"
+                // }
             ]
         }
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
