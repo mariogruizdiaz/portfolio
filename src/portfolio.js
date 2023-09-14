@@ -180,7 +180,7 @@ const techStack = {
             progressPercentage: "90%"
         },
         {
-            Stack: "Design Patterns & Practices and Paradigms",
+            Stack: "Design Patterns, Practices & Paradigms",
             Details: `Micro-Services, Micro-Frontends, Redux-Sagas, Object Oriented Programming (OOP), Pub-Sub & Req-Reply,
                 Design Patterns (Creational, Structural and Behavioral), Functional programming, MVC, MVVM`,
             progressPercentage: "98%"
@@ -233,8 +233,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    title: "Latest Big Projects & Initiatives 🚀",
+    subtitle: "SOME OF THE LATEST PROJECTS AND INITIATIVES I HAVE WORKED ON. SINCE THE CODE BELONGS TO MY EMPLOYERS, I CAN'T SHARE IT HERE. SO PLEASE CONTACT ME IF YOU WANT ME TO GO THROUGH THE CODE WITH YOU.",
     projects: [
         {
             image: require("./assets/images/paramount.png"),
