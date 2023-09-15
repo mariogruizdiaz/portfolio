@@ -20,6 +20,8 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import { bigProjects } from "../portfolio";
+import { smallProjects } from "../portfolio";
 import "./Main.scss";
 
 const Main = () => {
@@ -58,7 +60,8 @@ const Main = () => {
             <Education />
             <WorkExperience />
             <Projects />
-            <StartupProject />
+            <StartupProject projects={bigProjects} />
+            <StartupProject projects={smallProjects} />
             <Achievement />
             <Blogs />
             <Talks />

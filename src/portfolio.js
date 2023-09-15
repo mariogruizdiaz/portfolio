@@ -436,53 +436,233 @@ const bigProjects = {
                 }
             ]
         },
-        // {
-        //     image: require("./assets/images/arena/logo.png"),
-        //     projectName: "Advertising Platform. New Social Network app",
-        //     projectDescriptions: [
-        //         `I co-founded and innovated an advertising platform that helped brands identify and connect with target audiences, thereby accelerating organic growth. I facilitated the scalability of applications, using microservices in Node.js, ecma6, and TypeScript. Utilized MongoDB and Redis for data storage and GraphQL for the layer service. Additionally, I employed NATS messaging services to streamline the connectivity of 400+ microservices in the platforms and executed the development and deployment of two client apps simultaneously, the first, a web app built with React, Redux, and Sagas, and the second a mobile app built with React Native, Redux, and Sagas. Automation was implemented using Mocha.js and Chai.`
-        //     ],
-        //     images: [
-        //         require("./assets/images/arena/1.png"),
-        //         require("./assets/images/arena/2.png"),
-        //         require("./assets/images/arena/3.png"),
-        //         require("./assets/images/arena/4.png"),
-        //         require("./assets/images/arena/5.png"),
-        //         require("./assets/images/arena/6.png"),
-        //         require("./assets/images/arena/7.png"),
-        //     ],
-        //     keywords: [
-        //         "Logging",
-        //         "Metrics",
-        //         "Distributing Tracing",
-        //         "OpenTelemetry",
-        //         "DataDog",
-        //         "APM",
-        //         "Kibana",
-        //         "Grafana",
-        //         "Prometheus",
-        //         "Observability",
-        //         "NATS.io",
-        //         "Publish-Subscribe Pattern",
-        //         "Request-Reply Pattern",
-        //         "Microservices",
-        //         "React",
-        //         "React Native",
-        //         "Redux-Sagas",
-        //         "Node.js",
-        //         "GraphQL",
-        //         "TypeScript",
-        //     ],
-        //     footerLink: [
-        //         {
-        //             name: "Visit Website",
-        //             url: "https://www.adme.com.ar"
-        //         }
-        //     ]
-        // }
+        {
+            image: require("./assets/images/arena/logo.png"),
+            projectName: "Cross-Platform Sports Statistics Mobile App with Real-time Updates",
+            projectDescriptions: [
+                `Overview:`,
+                `This project showcases the development of a mobile application and backend infrastructure using microservices architecture. The primary goal is to provide users with access to historical sports statistics as well as real-time updates for ongoing matches. A significant challenge was ensuring that the app received updates seamlessly from the backend without requiring user-initiated refreshes.`,
+                `Key Features:`,
+                `Cross-platform mobile application built with Xamarin.Forms for Android and iOS.
+                Integration with the Sportradar API (https://sportradar.com/) to retrieve historical sports data on user demand and real-time updates for ongoing matches.
+                Implementation of microservices for efficient data retrieval and processing.
+                Use of GraphQL for flexible and efficient data querying.
+                Data storage and synchronization handled through MySQL and Firestore.
+                NATS.io employed for inter-microservice communication.
+                Backend server implemented using Node.js and TypeScript.`,
+                `Technical Challenges:`,
+                `One notable technical challenge of this project was the adaptation of the MVVM (Model-View-ViewModel) pattern in Xamarin.Forms to the Redux pattern in combination with Sagas. This required an in-depth study of these patterns, both in theory and practice. It was discovered and justified that Facebook introduced the Redux pattern because they found that the MVVM pattern had limitations and did not cover the entire scope of global application state management.`,
+                `Achievements:`,
+                `Successful development of a cross-platform mobile application with a responsive user interface.
+                Integration of Sportradar API for historical and real-time sports data.
+                Implementation of microservices architecture for efficient data handling.
+                Effective use of GraphQL for flexible and optimized data querying.
+                Seamless real-time updates for ongoing matches without user intervention.
+                Integration of NATS.io for efficient microservices communication.
+                A deep understanding of both MVVM and Redux patterns, leading to the informed choice of Redux for global state management.`,
+                `This project demonstrates not only technical proficiency in cross-platform mobile development and microservices architecture but also a strong understanding of architectural patterns and the ability to choose the most appropriate one to meet specific project requirements.`
+            ],
+            images: [
+                require("./assets/images/arena/1.png"),
+                require("./assets/images/arena/2.png"),
+                require("./assets/images/arena/3.png"),
+                require("./assets/images/arena/4.png"),
+                require("./assets/images/arena/5.png"),
+                require("./assets/images/arena/6.png"),
+                require("./assets/images/arena/7.png"),
+                require("./assets/images/arena/8.png"),
+                require("./assets/images/arena/9.png"),
+            ],
+            keywords: [
+                "Microservices",
+                "Xamarin.Forms",
+                "Node.js",
+                "GraphQL",
+                "TypeScript",
+                "NATS.io",
+                "Publish-Subscribe Pattern",
+                "Request-Reply Pattern",
+                "MVVM Patern",
+                "Redux-Sagas Patterns",
+                "Firestore"
+            ],
+            footerLink: [
+                {
+                    name: "Visit Website",
+                    url: "https://www.adme.com.ar"
+                }
+            ]
+        }
     ],
     display: true // Set false to hide this section, defaults to true
 };
+
+const smallProjects = {
+    title: "Proof of Concepts & Code Challenges 🤓",
+    subtitle: "PUBLIC GITHUB REPOSITORIES.",
+    projects: [
+        {
+            image: require("./assets/images/appcues/logo.gif"),
+            projectName: "Code Challenge",
+            projectDescriptions: [
+                `Overview`,
+                `In response to the Platform Engineer Project challenge, I undertook the task of building a highly scalable web service that allows users to increment a value associated with a specific key. The challenge required synchronization of this service's state with a Postgres database at least every ten seconds. I successfully completed this project within the stipulated time frame of six hours, delivering a functional prototype with essential features and documentation.`,
+                
+                `Key Requirements and Features`,
+                `1. RESTful API: The service is designed as a RESTful API that listens on port 3333 and accepts POST requests at the path /increment.
+                
+                2. JSON Request Format: Requests to the /increment endpoint require a JSON request body with two parameters: "key" (the key to be incremented) and "value" (the increment value). Both parameters are mandatory.
+                
+                3. Increment Logic: Incoming requests are responsible for incrementing the specified key by the provided value.
+                
+                4. Data Synchronization: The service ensures that its state remains synchronized with a Postgres database at most every ten seconds.`,
+                
+                `Deliverables`,
+                `As part of the challenge, I provided the following deliverables:`,
+                
+                `Functional Prototype: The project was delivered as a GitHub repository, containing a functional implementation of the service. All the basic requirements were covered, and the code is thoroughly documented.`,
+                
+                `Unit Tests: I included unit tests to validate critical functionality and ensure the code's reliability.`,
+                
+                `Documentation: I prepared a brief document explaining my design decisions, including how I approached data persistence and the choice of external libraries and tools. This documentation provides insights into the project's architecture and rationale.`,
+                
+                `Postmortem Summary: The postmortem summary details my experiences during the project, highlighting challenges faced, lessons learned, and areas for potential improvement. It discusses how the project could be adapted for production use with more time and resources.`,
+                
+                `Evaluation Criteria`,
+                `The challenge evaluated my ability to design and implement a scalable, performant architecture while maintaining clean and idiomatic code. Unit test coverage for critical functionality was essential, and I provided a thoughtfully written postmortem that reflected on the project's development process.`,
+                
+                `Possible Enhancements`,
+                `If additional time were available, potential enhancements to the project could include:`,
+                
+                `Metrics Collection: Implementing metrics collection for the service using various strategies or clients, including open-source projects, custom tools, or cloud services.
+                
+                Authorization: Adding industry-standard authorization mechanisms to secure the /increment endpoint, allowing only authenticated clients to access it.
+                
+                Rate Limiting: Implementing rate limiting on the /increment endpoint to prevent abuse and ensure fair usage of the service.
+                
+                Benchmarking: Providing benchmarks to measure the service's performance using a preferred benchmarking tool.`,
+                
+                `Tech Stack`,
+                `The project was implemented using the following technologies:`,
+                
+                ` - Node.js: For building the web service.`,
+                ` - JavaScript: The primary programming language.`,
+                ` - Postgres: As the permanent database for data storage.`,
+                ` - Redis: For in-memory caching and key synchronization.`,
+                ` - Prometheus: For metrics collection.`,
+                ` - Grafana: As a visualization tool for monitoring metrics.`,
+                ` - Docker: To containerize the service for easy deployment.`
+                 
+            ],
+            images: [
+                require("./assets/images/appcues/1.png"),
+                require("./assets/images/appcues/2.png"),
+                require("./assets/images/appcues/3.png"),
+                require("./assets/images/appcues/4.png"),
+                require("./assets/images/appcues/5.png"),
+                require("./assets/images/appcues/6.png"),
+                require("./assets/images/appcues/7.png"),
+                require("./assets/images/appcues/8.png"),
+                require("./assets/images/appcues/9.png"),
+                require("./assets/images/appcues/10.png"),
+                require("./assets/images/appcues/11.png"),
+                require("./assets/images/appcues/12.png"),
+                require("./assets/images/appcues/13.png"),
+                require("./assets/images/appcues/14.png"),
+            ],
+            keywords: [
+                "Logging",
+                "Metrics",
+                "Distributing Tracing",
+                "OpenTelemetry",
+                "Kibana",
+                "Grafana",
+                "Prometheus",
+                "Observability",
+                "React",
+                "Redux-Sagas",
+                "Node.js",
+                "GraphQL",
+                "TypeScript",
+            ],
+            footerLink: [
+                {
+                    name: "Requirements",
+                    url: "https://www.notion.so/Appcues-4a03e2c9e1e9405288ec65a7be2c576b?pvs=4"
+                },
+                {
+                    name: "Delivery Documentation",
+                    url: "https://www.notion.so/Delivery-91645f4bdf374c45b3e9a0e0ce03e5a4?pvs=4"
+                },
+                {
+                    name: "Github Repository",
+                    url: "https://github.com/mariogruizdiaz/restApi-metrics-postgres-redis-docker"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/ondeck/logo.jpg"),
+            projectName: "Code Challenge",
+            projectDescriptions: [
+                `Requirements`,
+                `We want to create a newsfeed for each fellowship that shows new and relevant events. The goal is to keep users up to date and to facilitate collaboration between them.`,
+                
+                `In general, there are three types of events:`,
+                
+                `new people (DB table users),`,
+                `new projects (table projects),`,
+                `team announcements (table announcements).`,
+                `However, each newsfeed should consist of different types of content because people from different fellowships are interested in different events:`,
+                
+                `Founders want to connect to angels and other founders.`,
+                `Angels want to connect to founders and other angels.`,
+                `Founders and angels are interested in new founders' projects.`,
+                `Writers want to connect only to other writers and are not interested in founders' projects.`,
+                `Announcements can be addressed to a specific fellowship, or to all users (see table announcements, column fellowship). Founders are not interested in announcements addressed to writers, and so on.`,
+                
+                `Part 1: coding task`,
+                `Implement the newsfeed:`,
+                
+                ` - It should include users, projects, and announcements.`,
+                ` - It should display different results, depending on the selected fellowship, as described in the "Setting" section above.`,
+                ` - Entries should be sorted by creation date, newer entries go first.`,
+                ` - Implement infinite scrolling, don't download and display all entries at once.`,
+                `Tips:`,
+                
+                `You can change any part of the application — DB connection, GraphQL server/client, styled-components — if you are more comfortable or productive with something else.`,
+                `You can change the project structure as you see fit.`,
+                `You can add any NPM package you need to implement new features or improve the existing code.`,
+                `You can reuse the existing React components, or modify them so they fit better in the newsfeed.`,
+                `Don't spend much time creating beautiful UI, just make it look consistent.`
+                 
+            ],
+            images: [
+                require("./assets/images/ondeck/1.png"),
+                require("./assets/images/ondeck/2.png"),
+            ],
+            keywords: [
+                "React",
+                "Express",
+                "Node.js",
+                "TypeScript",
+                "sqlite3",
+                "GraphQL"
+            ],
+            footerLink: [
+                {
+                    name: "Requirements in the Github Repository delivered",
+                    url: "https://github.com/mariogruizdiaz/coding-challenge-newsfeed"
+                },
+                {
+                    name: "Code walk-through video",
+                    url: "https://drive.google.com/file/d/1zJbDLSQDwfp9Eq589CYPKbxxwweEAYVx/view"
+                }
+            ]
+        }
+    ],
+    display: true // Set false to hide this section, defaults to true
+};
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -629,6 +809,7 @@ export {
     workExperiences,
     openSource,
     bigProjects,
+    smallProjects,
     achievementSection,
     blogSection,
     talkSection,
